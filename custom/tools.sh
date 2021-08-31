@@ -12,8 +12,12 @@ function applicable() {
       echo "true"
 }
 
+function echo_error() {
+  echo "$@" 1>&2;
+}
+
 function run() {
-  echo "foo bar"
+  echo_error "foo bar"
   exit 1
 }
 
