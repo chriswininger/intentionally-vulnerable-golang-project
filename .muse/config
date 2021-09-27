@@ -1,2 +1,2 @@
-customTools = ["./custom/tools.sh"]
+customTools = ["./custom/tools.sh", "./markdown-tool.py"]
 
